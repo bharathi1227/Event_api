@@ -1,0 +1,204 @@
+{
+  "info": {
+    "_postman_id": "event-registration-api-002",
+    "name": "Event Registration API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Users",
+      "item": [
+        {
+          "name": "User 1 - Kavibharathi Karthikeyan",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":1,\"name\":\"Kavibharathi Karthikeyan\",\"email\":\"kavi@example.com\",\"phone\":\"9876543210\"}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/users/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","users"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "User 2 - keerthana",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":2,\"name\":\"keerthana\",\"email\":\"keerthana@example.com\",\"phone\":\"9876543211\"}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/users/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","users"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "User 3 - padmaja",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":3,\"name\":\"padmaja\",\"email\":\"padmaja@example.com\",\"phone\":\"9876543212\"}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/users/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","users"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "User 4 - deepak",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":4,\"name\":\"deepak\",\"email\":\"deepak@example.com\",\"phone\":\"9876543213\"}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/users/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","users"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "User 5 - anjali",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":5,\"name\":\"anjali\",\"email\":\"anjali@example.com\",\"phone\":\"9876543214\"}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/users/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","users"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "User 6 - maha",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":6,\"name\":\"maha\",\"email\":\"maha@example.com\",\"phone\":\"9876543216\"}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/users/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","users"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "User 7 - jensha",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":7,\"name\":\"jensha\",\"email\":\"jensha@example.com\",\"phone\":\"9876543217\"}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/users/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","users"] }
+          },
+          "response":[]
+        }
+      ]
+    },
+    {
+      "name": "Create Events",
+      "item": [
+        {
+          "name": "Event 1 - Tech workshop",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":1,\"title\":\"Tech workshop\",\"date\":\"2025-09-01\",\"location\":\"virtual\"}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/events/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","events"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "Event 2 - AI seminar",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":2,\"title\":\"AI seminar\",\"date\":\"2025-09-05\",\"location\":\"virtual\"}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/events/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","events"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "Event 3 - hackathon",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":3,\"title\":\"hackathon\",\"date\":\"2025-09-10\",\"location\":\"college\"}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/events/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","events"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "Event 4 - webinar on ML",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":4,\"title\":\"webinar on ML\",\"date\":\"2025-09-20\",\"location\":\"virtual\"}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/events/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","events"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "Event 5 - paper presentation",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":5,\"title\":\"paper presentation\",\"date\":\"2025-09-18\",\"location\":\"college\"}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/events/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","events"] }
+          },
+          "response":[]
+        }
+      ]
+    },
+    {
+      "name": "Create Registrations",
+      "item": [
+        {
+          "name": "Registration 1",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":1,\"status\":\"confirmed\",\"user\":1,\"event\":1}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/registrations/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","registrations"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "Registration 2",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":2,\"status\":\"confirmed\",\"user\":2,\"event\":1}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/registrations/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","registrations"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "Registration 3",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":3,\"status\":\"cancelled\",\"user\":3,\"event\":2}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/registrations/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","registrations"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "Registration 4",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":4,\"status\":\"confirmed\",\"user\":1,\"event\":2}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/registrations/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","registrations"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "Registration 5",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":5,\"status\":\"pending\",\"user\":4,\"event\":3}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/registrations/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","registrations"] }
+          },
+          "response":[]
+        },
+        {
+          "name": "Registration 6",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type","value":"application/json"}],
+            "body": {"mode":"raw","raw":"{\"id\":8,\"status\":\"confirmed\",\"user\":7,\"event\":5}"},
+            "url":{"raw":"http://127.0.0.1:8000/api/registrations/","protocol":"http","host":["127.0.0.1"],"port":"8000","path":["api","registrations"] }
+          },
+          "response":[]
+        }
+      ]
+    }
+  ]
+}
